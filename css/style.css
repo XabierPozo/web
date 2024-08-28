@@ -1,0 +1,66 @@
+a {
+    text-decoration: none;
+    color: rgb(32,32,32);
+}
+
+a:visited {
+    text-shadow: 2px 2px 2px rgb(255, 64, 64);
+}
+
+a:hover {
+    color: rgb(32,32,32);
+    text-shadow: 2px 2px 2px rgb(32,32,32);
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(32,32,32);
+    padding: 1rem 0rem ;
+}
+
+form {
+    background-color: rgb(240,240,240);
+}
+
+h1{
+    color: rgb(240,240,240);
+    text-shadow: 2px 2px 2px rgb(240,240,240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+header {
+    background-color: rgb(32,32,32);
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+html{
+    background-color: rgb(16,16,16);
+}
+
+main{
+    padding: 1rem;
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(224,224,224);
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+
+.connect{
+    color: rgb(255, 64, 64);
+}
